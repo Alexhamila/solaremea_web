@@ -1,0 +1,11 @@
+/* make the customizations */
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+
+$container-max-widths: (
+  lg: 1620px
+);
+
+@import "~bootstrap/scss/bootstrap";
