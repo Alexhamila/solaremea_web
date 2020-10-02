@@ -3,6 +3,7 @@
   width: 100%;
   max-width: 100em;
   margin: 0 auto;
+  background-color: #FFFFFF;
 }
 /* Header */
 .header{
@@ -119,7 +120,6 @@ ul.nav > li .navItem {
 } 
 .btnRound{
   display: inline-block;
-  color: rgb(255, 255, 255);
   line-height: 1.25em;
   font-weight: 400;
   border-width: initial;
@@ -128,7 +128,8 @@ ul.nav > li .navItem {
   border-image: initial;
   border-radius: 3em;
   outline: none;
-  background: rgb(21, 28, 51);
+  background: #FFFFFF;
+  color: #387CDF;
   padding: 1.125em 2em;
   transition: all 0.3s ease 0s
 }
@@ -178,7 +179,7 @@ ul.nav > li .navItem {
 /* Body Content */
 .bodyContent{
   position: relative;
-  background: rgb(28, 28, 33);
+  background: #FFFFFF;
 }
 .pageNav{
   display: block;
@@ -186,7 +187,8 @@ ul.nav > li .navItem {
   z-index: 100;
   top: 0px;
   left: 0px;
-  background: rgb(28, 28, 33);
+  background: #FFFFFF;
+  border-bottom: 1px solid rgba(43, 47, 57, 0.1);
 }
 .pageNav ul{
   width: 100%;
@@ -209,7 +211,7 @@ ul.nav > li .navItem {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.34;
-  color: rgb(164, 177, 218);
+  color: #151C34;
   opacity: 0.4;
 }
 
@@ -336,22 +338,27 @@ ul.nav > li .navItem {
 }
 .solutionsPresentation{
   padding: 6em;
-  color: #FFf;
-
+  border-bottom: 1px solid rgba(43, 47, 57, 0.1);
 }
 .solutionsPresentation h2{
   font-size: 1.4em;
+  font-weight: 700;
+}
+.solutionsPresentation p{
+  color: #6D6D6D;
 }
 .mainTitle{
   font-size: 2em;
-  color: white;
 }
 .content .underP{
+  color: #6D6D6D;
   margin-bottom: 3.2em;
 }
 .content .btnRound{
   margin-bottom: 5em;
   font-weight: 700;
+  background-color: #151C34;
+  color: white;
 }
 .heading{
   display: flex;
@@ -384,11 +391,11 @@ ul.nav > li .navItem {
 .solutionLinks li div a{
   display: flex;
   align-items: center;
-  color: rgb(153, 184, 230) !important;
+  color:  #387CDF !important;
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 1em;
 }
 .solutionLinks li div p{
-  color: rgb(191, 191, 191); 
+  color: #6D6D6D; 
 }

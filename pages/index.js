@@ -60,7 +60,7 @@ export default function Home() {
                 <p className="underP">Our innovative community solar & project development solutions make solar possible for households, businesses, property owners, and more.</p>
               </div>
               
-              <div class="row">
+              <div class="row" style={{marginTop: "3em"}}>
                 <div class="col-lg">
                   <div className="content">
                     <div className="heading">
@@ -88,9 +88,35 @@ export default function Home() {
                   </div>
                 </div>
                 <div class="col-lg" style={{textAlign: "center"}}>
-                  <img class="mainImg" src="/community_solar.jpg" alt="Community_solar"/>
+                  <img class="mainImg" src="/community_solar.jpg" alt="Community Solar"/>
                 </div>
               </div>
+
+              <div class="row" style={{marginTop: "3em"}}>
+              <div class="col-lg" style={{textAlign: "center"}}>
+                  <img class="mainImg" src="/solar_development.jpg" alt="Solar Development"/>
+                </div>
+                <div class="col-lg">
+                  <div className="content">
+                    <div className="heading">
+                      <img style={{marginRight: '1.5em'}} src="https://bluewavesolar.com/resources/img/icons/solar_development.min.svg" alt="Development Solar"/>
+                      <h3 style={{margin: '0'}}className="mainTitle">Solar Development</h3>
+                    </div>
+                    <p className="underP">We work at the forefront of responsible solar development. Partner with us to develop innovative utility-scale solar.</p>
+                    <a className="btnRound">Learn More</a>
+                    <ul className="solutionLinks">
+                      <li>
+                        <img src="https://bluewavesolar.com/resources/img/icons/solutions/panel.min.svg" alt="Solar"/>
+                        <div>
+                          <a>Developers and Property Owners</a>
+                          <p>Learn how our experienced team can deliver solutions that let you maximize the value of your land.</p>
+                        </div>  
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
