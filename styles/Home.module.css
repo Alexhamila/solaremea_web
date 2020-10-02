@@ -91,35 +91,33 @@ ul.nav > li .navItem {
   min-height: 100%;
   max-width: 200%;
 }
+.contain{
+  padding: 0 11.125%;
+  max-width: 90em;
+  margin: 0 auto;
+}
 .headContent{
   position: relative;
   color: white;
   max-width: 40em;
   text-align: center;
   color: rgb(255, 255, 255);
-  padding-top: 18%;
-  padding-right: 10%;
-  padding-bottom: 40%;
-  padding-left: 10%;
+  padding: 18%  10%  40%  10%
 }
-.contain{
-  padding: 0 11.125%;
-  max-width: 90em;
-  margin: 0 auto;
-}
+
 .huge{
   margin-bottom: 0.44em;
   font-size: 4.2em;
   font-weight: 400;
   line-height: 1.1em;
 }
-.headContent p{
+.underP{
   font-size: 1.2em;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 1.44em;
 } 
-.headContent a{
+.btnRound{
   display: inline-block;
   color: rgb(255, 255, 255);
   line-height: 1.25em;
@@ -138,13 +136,13 @@ ul.nav > li .navItem {
   .huge{
     font-size: 3.2em;;
   }
-  .headContent p{
+  .underP{
     font-size: 1em;
   }
   .loginBtn{
     display: none
   }
-  .headContent a{
+  .btnRound{
     padding: 0.86em 1.53em;
   }
 
@@ -159,13 +157,13 @@ ul.nav > li .navItem {
   .huge{
     font-size: 2.2em;
   }
-  .headContent p{
+  .underP{
     font-size: 0.9em;
   }
   .loginBtn{
     display: none
   }
-  .headContent a{
+  .btnRound{
     padding: 0.56em 1.13em;
   }
 }
@@ -326,4 +324,71 @@ ul.nav > li .navItem {
     width: 100%;
     flex-direction: column;
   }
+}
+.content{
+  margin: 0 8%;
+  text-align: left;
+}
+
+/* Solutions */
+.solutions{
+  text-align: center;
+}
+.solutionsPresentation{
+  padding: 6em;
+  color: #FFf;
+
+}
+.solutionsPresentation h2{
+  font-size: 1.4em;
+}
+.mainTitle{
+  font-size: 2em;
+  color: white;
+}
+.content .underP{
+  margin-bottom: 3.2em;
+}
+.content .btnRound{
+  margin-bottom: 5em;
+  font-weight: 700;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.875em;
+}
+.mainImg{
+  width: 80%;
+  border-radius: .5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.solutionLinks{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.solutionLinks li{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+.solutionLinks li img{
+  margin-right: 1em;
+}
+.solutionLinks li div {
+  max-width: 21.4375em;
+  margin: 0;
+}
+.solutionLinks li div a{
+  display: flex;
+  align-items: center;
+  color: rgb(153, 184, 230) !important;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+.solutionLinks li div p{
+  color: rgb(191, 191, 191); 
 }
